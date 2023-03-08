@@ -137,9 +137,9 @@ warning: You appear to have cloned an empty repository
 julien@ubuntu:/tmp/git_project$ ls
 0-test  0-test~ #0-test# file1  file2
 ```
-
-	- You’ve edited 0-test and you want to add it to your GitHub repo. What is the correct command to add only 0-test?
-		- git add 0-test
+You’ve edited 0-test and you want to add it to your GitHub repo. 
+- What is the correct command to add only 0-test?
+	- git add 0-test
 * Question #1
 	- What command can you use to see what changes have been staged, which haven’t, and which files aren’t being tracked by Git?
 		- git status
