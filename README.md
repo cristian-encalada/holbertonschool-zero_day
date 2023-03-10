@@ -88,25 +88,52 @@ Holberton Dev Bootcamp - Montevideo 2023
 - [x] [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - [x] [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [x] [How to write a Git commit message](https://cbea.ms/git-commit/)
-**For Advanced Tasks**
+For Advanced Tasks
 - [x] [Learning Branching](https://learngitbranching.js.org/?locale=es_ES)
-- [x] [Effective pull requests and other good practices for teams using GitHub](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 ### Learning Objectives
 * What is source code management
+	- It allows a developer to organize code iterations chronologically, and version it for an application.
 * What is Git
+	- Git is a source code management tool, that comes with a command-line tool for its users.
 * What is GitHub
+	- GitHub is one of many services that provide at the same time:
+		- a Git repository server to push your code to
+		- a web UI to that view your repositories, with their files and commits
 * What is the difference between Git and GitHub
+	- Git is a version control system that lets you manage and keep track of your source code history. 
+	- GitHub is a cloud-based hosting service that lets you manage Git repositories.
 * How to create a repository
+	- The easiest way is through GiHub web UI.
 * What is a README
+	- It is a text file that contains information for the user about the software, project, code, or game, or it might contain instructions, help, or details about the patches or updates.
 * How to write good READMEs
+	- Take a look at [How to write a good README file] (https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 * How to commit
+	- git commit -m "Message: What's this commit about?"
+	- For more info take a look at: [10 git commands every dev should know] (https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/)
 * How to write helpful commit messages
+	- Take a look at [How to write a Git commit message](https://cbea.ms/git-commit/)
 * How to push code
+	- git push <remote> <branch-name>
+However, if your branch is newly created, then you also need to upload the branch with any of the following commands (just one of them):
+	- git push --set-upstream <remote> <name-of-your-branch>
+	- git push -u origin <branch_name>
 * How to pull updates
+	- git pull <remote>
 * How to create a branch
+	- git branch <branch-name>
 * How to merge branches
+	- For example, when you want to merge your feature branch into the **dev** branch:
+		- First you should switch to the dev branch:
+			- git checkout dev
+		- Before merging, you should update your local dev branch:
+			- git fetch
+		- Finally, you can merge your feature branch into dev:
+			- git merge <branch-name>
 * How to work as collaborators on a project
+	- Take a look at [Effective pull requests and other good practices for teams using GitHub](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 * Which files should and which files should not appear in your repo
+	- Take a look at [What not to save into a Git repository] (https://www.freecodecamp.org/news/what-not-to-save-into-a-git-repository-29779ee94b96/)
 ### Additional info
 #### Install git
 If git is not already installed on your terminal:
