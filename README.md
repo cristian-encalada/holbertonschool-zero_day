@@ -3,7 +3,7 @@
 Holberton Dev Bootcamp - Montevideo 2023
 ## Emacs
 ### Resources
-- [x] [A Guided Tour of Emacs](https://www.gnu.org/software/emacs/tour/)
+- [A Guided Tour of Emacs](https://www.gnu.org/software/emacs/tour/)
 ### Learning Objectives
 * What is Emacs
 	- Emacs is an extensible, customizable, self-documenting real-time display editor
@@ -45,7 +45,7 @@ Holberton Dev Bootcamp - Montevideo 2023
 		- False
 ## Vi
 ### Resources
-- [x] [Basic Vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
+- [Basic Vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
 ### Learning Objectives
 * What is vi
 	- The default editor that comes with the UNIX operating system is called vi (visual editor).
@@ -85,11 +85,9 @@ Holberton Dev Bootcamp - Montevideo 2023
 		- :q<Return>
 ## Git
 ### Resources
-- [x] [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
-- [x] [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- [x] [How to write a Git commit message](https://cbea.ms/git-commit/)
-For Advanced Tasks
-- [x] [Learning Branching](https://learngitbranching.js.org/?locale=es_ES)
+- [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+- [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [Learning Branching](https://learngitbranching.js.org/?locale=es_ES)
 ### Learning Objectives
 * What is source code management
 	- It allows a developer to organize code iterations chronologically, and version it for an application.
@@ -107,10 +105,10 @@ For Advanced Tasks
 * What is a README
 	- It is a text file that contains information for the user about the software, project, code, or game, or it might contain instructions, help, or details about the patches or updates.
 * How to write good READMEs
-	- Take a look at [How to write a good README file] (https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+	- Take a look at [How to write a good README file](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 * How to commit
 	- git commit -m "Message: What's this commit about?"
-	- For more info take a look at: [10 git commands every dev should know] (https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/)
+	- For more info take a look at: [10 git commands every dev should know](https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/)
 * How to write helpful commit messages
 	- Take a look at [How to write a Git commit message](https://cbea.ms/git-commit/)
 * How to push code
@@ -133,7 +131,7 @@ However, if your branch is newly created, then you also need to upload the branc
 * How to work as collaborators on a project
 	- Take a look at [Effective pull requests and other good practices for teams using GitHub](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 * Which files should and which files should not appear in your repo
-	- Take a look at [What not to save into a Git repository] (https://www.freecodecamp.org/news/what-not-to-save-into-a-git-repository-29779ee94b96/)
+	- Take a look at [What not to save into a Git repository](https://www.freecodecamp.org/news/what-not-to-save-into-a-git-repository-29779ee94b96/)
 ### Additional info
 #### Install git
 If git is not already installed on your terminal:
